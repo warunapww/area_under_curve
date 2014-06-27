@@ -69,7 +69,7 @@ do
 
 done < $SORTED_FILE
 
-#rm $SORTED_FILE
+rm $SORTED_FILE
 
 echo "$ENERGY"
 echo "ENERGY: $ENERGY">>${LOG}
