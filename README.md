@@ -2,6 +2,7 @@ area_under_curve
 ================
 
 Compute the area under a curve. Given data for x and y, computes the area under curve y.
+This uses the trapisoidal rule [1].
 
 Sample input file: JACOBI_.512.64.10240.20480.exec.log
 
@@ -13,3 +14,6 @@ sh compute_area.sh JACOBI_.512.64.10240.20480.exec.log
 
 Output:
 2147.69426695000000000000
+
+
+ 1] - http://people.oregonstate.edu/~haggertr/487/integrate.htm
