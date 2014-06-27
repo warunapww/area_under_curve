@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LOG=compute_energy.log
+LOG=compute_area.log
 
 date>>${LOG}
 
